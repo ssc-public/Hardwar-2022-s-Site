@@ -775,6 +775,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f07008;
 }
 
+#speakers .speaker img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 #speakers .speaker:hover .details {
   bottom: 0;
 }
