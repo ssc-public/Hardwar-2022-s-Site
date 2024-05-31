@@ -10,12 +10,12 @@
 --------------------------------------------------------------*/
 
 @font-face {
-  font-family: BMitra;
+  font-family: Modam;
   src: url(fonts/Modam-Regular.ttf);
 }
 
 * {
-  font-family: BMitra, sans-serif !important;
+  font-family: Modam, sans-serif !important;
 }
 
 body {
@@ -1105,9 +1105,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
-  margin-bottom: 30px;
+
 }
 
 #supporters .supporter-logo {
@@ -1121,11 +1119,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
 }
 
 #supporters .supporter-logo:hover img {
